@@ -1,0 +1,95 @@
+
+body {
+  font-family: 'archer', sans-serif; 
+}
+
+
+#hero {
+  background-image: url("/images/hero-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 60vh;
+}
+
+.nav-link.active {
+  font-weight: 800;
+  text-decoration: underline;
+
+}
+.navbar-light .navbar-nav .nav-link {
+  color:white !important;
+
+}
+
+.navbar-collapse {
+  flex-grow: unset;
+}
+.navbar-expand-lg .navbar-nav li {
+  padding:5%;
+}
+nav{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+nav .hamburger {
+  width:180px ;
+  text-align: right;
+}
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:80%;
+
+}
+
+.jumbotron p {
+  text-align: center;
+  color: white;
+
+}
+
+.jumbotron h1 {
+  color: white;
+  font-weight: 800;
+
+}
+
+
+.jumbotron h1 span {
+
+  font-weight: 300;
+
+}
+
+.jumbotron .my-4 {
+  background-color: #ccbcad;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;padding:30px;
+  background-color: #283426;
+  
+}
+
+footer ul li a {
+  color:#ffffff;
+  text-decoration:none;
+  
+}
+
+.back-top {
+
+  padding:30px;
+}
+
+.back-top  img {
+  transform: rotate(180deg);
+
+}
